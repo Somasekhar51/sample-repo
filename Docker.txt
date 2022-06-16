@@ -1,0 +1,41 @@
+mkdir dockerfiles 
+cd dockerfiles 
+touch dockerfile 
+vim dockerfile 
+i
+
+from ubunto 
+
+MAINTAINER soma sekhar mithireddy <anna@example.com>
+
+from scrach ( empty imge )*****
+run apt-get -y update 
+cmd ["echo", "hello world...!"]
+es
+:wq! ( escape )
+
+docker build /user /location -------
+
+dockerbuild -t  ******
+docker run (image name )
+
+----------------
+linux access
+where docker image running -  in which server ? ( where i needs to creats images )
+
+
+Buiding image 
+$ git clone https://github.com/spkane/docker-node-hello.git
+Cloning into 'docker-node-hello'...
+remote: Counting objects: 20, done.
+remote: Compressing objects: 100% (14/14), done.
+remote: Total 20 (delta 6), reused 20 (delta 6)
+Unpacking objects: 100% (20/20), done.
+Checking connectivity... done.
+$ cd docker-node-hello
+
+
+
+
+
+
